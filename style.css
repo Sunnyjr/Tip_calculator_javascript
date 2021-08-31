@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 15px;
+    /* font-size: 62.5%; */
+}
+
+body {
+    background-image: url("food.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: rgb(226, 207, 207);
+    display: flex;
+    justify-content: center;
+    font-family: 'Redressed', cursive;
+}
+
+form {
+    margin-top: 2rem;
+    width: 22rem;
+    height: 100%;
+    text-align: center;
+}
+.main {
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 5rem;
+    background-color:rgb(230, 230, 230);
+    box-shadow: 1px 1px 15px 3px #e5aa82;
+
+}
+.bill {
+    border: none;
+    outline: none;
+    border: 1px solid rgb(253, 190, 131);
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+#btn {
+    background-color: rgb(253, 190, 131);
+    color: black;
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 20px;
+    
+}
+header {
+    padding-top: 0.6rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: lightgrey;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px 5px 5px 5px;
+}
+input,
+select {
+    width: 60%;
+
+}
